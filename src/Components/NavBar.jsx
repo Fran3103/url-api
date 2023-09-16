@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import logo from '../../public/images/logo.svg'
+import logo from '../assets/images/logo.svg'
 import { AiOutlineMenu} from "react-icons/ai";
 
 const NavBar = () => {
 
 
-    const[hidden,setHidden] = useState(true)
+    const[hidden,setHidden] = useState(false)
 
     const click = () => setHidden(!hidden)
 
