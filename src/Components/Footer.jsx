@@ -45,6 +45,11 @@ const Footer = () => {
                     <img src={insta} alt="instagram" className='lg:w-5 lg:h-5'/>
             </div>
         </div>
+
+        <div className="flex flex-col md:flex-row justify-around items-center ">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer '>Frontend Mentor </a> . </p>
+       <p> Coded by <a className='text-blue-500 cursor-pointer' href="https://www.linkedin.com/in/franco-aguirre-24855012a" target="_blank" rel='noreferrer  '>Franco Aguirre</a> .</p>
+        </div> 
     </div>
   )
 }
