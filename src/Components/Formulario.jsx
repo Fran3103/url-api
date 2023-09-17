@@ -44,7 +44,7 @@ const shorten = e => {
           <img src={bg} alt="bg" className="absolute top-0 -right-2 z-0 rounded-e-xl lg:hidden" />
           <img src={bgDesk} alt="bgDesktop" className="absolute top-0 left-0 w-full z-0 rounded-e-xl hidden lg:block" />
 
-            <form action=""  onSubmit={shorten} className="flex flex-col justify-center items-center gap-3 z-20 relative  lg:flex-row border-red-600">
+            <form  onSubmit={shorten} className="flex flex-col justify-center items-center gap-3 z-20 relative  lg:flex-row border-red-600">
                 <input type="text" name="url"  placeholder="Shorten a link here..." className={error ? 'w-full rounded-md h-12 p-3 lg:w-3/4 border-red-600' : "w-full rounded-md h-12 p-3 lg:w-3/4 "}/>
               
                 <p className={error ? 'mt-2 text-red-900 text-left': 'hidden'}>Please add a link</p>
