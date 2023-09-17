@@ -18,7 +18,7 @@ const NavBar = () => {
                 <img src={logo} alt="logo" />
             <AiOutlineMenu className='w-6 h-6 cursor-pointer' onClick={click}/>
                 </div>
-                <div className= {hidden ?'rounded-xl w-full  text-white/80 font-bold px-6 bg-darkViolet text-center text-xl  py-9 gap-4 absolute top-16  left-0 flex flex-col duration-[800ms]  transition-all ease-in-out': 'rounded-xl w-full  text-Grays bold px-6 bg-darkViolet text-center text-2xl  py-9 gap-4 absolute -left-[800px] top-16  flex flex-col duration-[1000ms]  transition-all ease-in-out'  }>
+                <div className= {hidden ?'rounded-xl w-full  text-white/80 font-bold px-6 bg-darkViolet text-center text-xl z-10 py-9 gap-4 absolute top-16  left-0 flex flex-col duration-[1000ms]  transition-all ease-in-out': 'rounded-xl w-full  text-Grays bold px-6 bg-darkViolet text-center text-2xl z-10 py-9 gap-4 absolute -left-[800px] top-16  flex flex-col duration-[1000ms]  transition-all ease-in-out'  }>
                     <nav className='flex flex-col gap-7' >
                             <ul>
                                 <li className='hover:text-gray-400 duration-150'>
