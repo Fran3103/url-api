@@ -22,6 +22,11 @@ export default {
         poppins: ['poppins']
        
       },
+
+      backgroundImage:{
+        'img-mobile': "url('./assets/images/bg-boost-mobile.svg')",
+        'img-desktop': "url('./assets/images/bg-boost-desktop.svg')"
+      }
     },
   },
   plugins: [],
