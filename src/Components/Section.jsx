@@ -4,15 +4,15 @@ import img3 from '../assets/images/icon-fully-customizable.svg'
 
 const Section = () => {
   return (
-    <div className='w-full'>
+    <div className='max-w-screen  m-auto text-center  bg-Grays -mt-20 py-16 '>
 
-        <div className='w-full text-center mt-12 flex flex-col gap-6  bg-Grays  '>
+        <div className='max-w-[1120px] m-auto text-center mt-12 flex flex-col gap-12   '>
             <div >
                 <h2 className='text-3xl text-darkViolet font-bold mb-3 mt-12'>Advanced Statistics</h2>
                 <p className='text-md text-GrayiViolet md:w-[470px] md:m-auto mx-4 mt-6'>Track how your links are performing across the web with our advanced statistics dashboard.</p>
             </div>
             <div className='md:flex md:gap-7 md:justify-center  relative '>
-                <div className='flex flex-col justify-center items-center gap-4 bg-white  mt-16 md:text-left relative  md:items-start md:w-[320px] md:h-48 md:z-20 md:mt-0 md:[400px] md:p-3 rounded-lg'>
+                <div className='flex flex-col justify-center w-80 m-auto p-4 items-center gap-4 z-50 bg-white  mt-16 md:text-left relative  md:items-start md:w-[320px] md:h-48 md:z-20 md:mt-0 md:[400px] md:p-3 rounded-lg'>
                     <div className='bg-darkViolet -mt-16 w-20 h-20  p-4 rounded-full md:absolute md:top-6 md:left-6 relative  md:w-16 md:h-16 '>
                         <img className='m-auto' src={img1} alt="Brand" />
                     </div>
@@ -25,7 +25,7 @@ const Section = () => {
                 
                 <div className='w-2 h-96 hidden absolute top-72 left-56  bg-cyan m-auto -mb-12 md:w-full md:max-w-4xl md:h-2 md:top-36  md:left-0 lg:left-[52px] md:block ' ></div>
 
-                <div className='flex flex-col justify-center items-center gap-4 bg-white  mt-16 md:text-left relative  md:items-start md:w-[320px] md:h-48 md:z-20 md:mt-16 md:[400px] md:p-3 rounded-lg'>
+                <div className='flex flex-col justify-center w-80 m-auto p-4 z-40 items-center gap-4 bg-white  mt-16 md:text-left relative  md:items-start md:w-[320px] md:h-48 md:z-20 md:mt-16 md:[400px] md:p-3 rounded-lg'>
                     <div  className='bg-darkViolet -mt-16 w-20 h-20  p-4 rounded-full md:absolute md:top-6 md:left-6 relative  md:w-16 md:h-16 '>
                         <img className='m-auto ' src={img2} alt="detailed" />
                         <div className='w-2 h-10 absolute -top-10 left-9   z-0 bg-cyan   md:hidden ' ></div>
@@ -37,7 +37,7 @@ const Section = () => {
 
                 
 
-                <div className='flex flex-col justify-center items-center gap-4 bg-white  mt-16 md:text-left relative  md:items-start md:w-[320px] md:h-48 md:z-20 md:mt-32 md:[400px] md:p-3 rounded-lg'>
+                <div className='flex flex-col justify-center w-80 m-auto p-4 items-center gap-4  bg-white  mt-16 md:text-left relative  md:items-start md:w-[320px] md:h-48 md:z-20 md:mt-32 md:[400px] md:p-3 rounded-lg'>
                     <div  className='bg-darkViolet -mt-16 w-20 h-20  p-4 rounded-full md:absolute md:top-6 md:left-6 relative  md:w-16 md:h-16 '>
                         <img className='m-auto' src={img3} alt="fully" />
                         <div className='w-2 h-10 absolute -top-10 left-9   z-0 bg-cyan   md:hidden ' ></div>
